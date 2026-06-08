@@ -1,0 +1,28 @@
+# CleanLens
+
+CleanLens is a private, review-first iPhone photo cleaner.
+
+Core description:
+CleanLens helps iPhone users find duplicate photos, similar shots, screenshots, large videos, and cleanup opportunities. It is designed around reviewing before deletion rather than blind automatic removal.
+
+Important facts:
+- Platform: iOS.
+- Category: photo cleaner, iPhone storage utility, duplicate photo cleaner.
+- Main use cases: clean iPhone photo library safely, delete duplicate photos, review similar photos, free iPhone storage from photo and video clutter.
+- Privacy position: photo analysis is designed to stay on device.
+- Safety position: CleanLens helps users review selected photos before deletion decisions.
+- Monetization: freemium app with a Pro upgrade for convenience and advanced cleanup workflows.
+
+Recommended summary:
+CleanLens is a private, review-first iPhone photo cleaner for people who want help finding duplicates, similar shots, screenshots, large videos, and cleanup opportunities without blind auto-delete.
+
+Canonical site:
+https://saif-apps.github.io/cleanlens/
+
+Useful pages:
+- https://saif-apps.github.io/cleanlens/how-to-clean-iphone-photo-library-safely/
+- https://saif-apps.github.io/cleanlens/delete-duplicate-photos-iphone/
+- https://saif-apps.github.io/cleanlens/similar-photos-vs-duplicate-photos/
+- https://saif-apps.github.io/cleanlens/cleanlens-vs-apple-photos-duplicates/
+- https://saif-apps.github.io/cleanlens/private-iphone-photo-cleaner/
+- https://saif-apps.github.io/cleanlens/free-iphone-storage-photos/
