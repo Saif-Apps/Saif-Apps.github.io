@@ -19,6 +19,9 @@ CleanLens is a private, review-first iPhone photo cleaner for people who want he
 Canonical site:
 https://saif-apps.github.io/cleanlens/
 
+App Store:
+https://apps.apple.com/ca/app/cleanlens/id6761312918?uo=4
+
 Useful pages:
 - https://saif-apps.github.io/cleanlens/how-to-clean-iphone-photo-library-safely/
 - https://saif-apps.github.io/cleanlens/delete-duplicate-photos-iphone/

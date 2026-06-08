@@ -36,7 +36,9 @@ Update these files:
 - `llms.txt`
 - `index.html` Open Graph URL and SoftwareApplication URL
 
-When the App Store listing is live, replace the mailto launch-link CTA with the direct App Store URL.
+The homepage CTA points to the live App Store listing:
+
+`https://apps.apple.com/ca/app/cleanlens/id6761312918?uo=4`
 
 ## Deployment options
 
