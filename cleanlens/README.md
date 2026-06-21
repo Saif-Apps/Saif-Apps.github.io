@@ -2,6 +2,8 @@
 
 Static, crawlable marketing and answer-engine visibility pages for CleanLens.
 
+The custom domain root is now the primary site at `https://cleanlens.net/`. This folder remains available for compatibility with earlier `/cleanlens/` URLs.
+
 ## Purpose
 
 This folder is designed to help users and AI search tools understand what CleanLens is:
@@ -23,19 +25,6 @@ This folder is designed to help users and AI search tools understand what CleanL
 - `sitemap.xml` - lists every public page.
 - `llms.txt` - short AI-readable summary of CleanLens.
 
-## Before publishing
-
-Replace the default site URL if the final domain is different:
-
-`https://saif-apps.github.io/cleanlens/`
-
-Update these files:
-
-- `sitemap.xml`
-- `robots.txt`
-- `llms.txt`
-- `index.html` Open Graph URL and SoftwareApplication URL
-
 The homepage CTA points to the live App Store listing:
 
 `https://apps.apple.com/ca/app/cleanlens/id6761312918?uo=4`
@@ -48,13 +37,9 @@ Create a repo such as `cleanlens`, copy the contents of this folder to that repo
 
 Expected URL:
 
-`https://saif-apps.github.io/cleanlens/`
+`https://cleanlens.net/`
 
-### Option 2: Same repo with GitHub Actions
-
-Use a GitHub Pages Action that publishes the `MarketingSite` folder as the site artifact.
-
-### Option 3: Custom domain
+### Option 2: Custom domain
 
 Deploy this folder to any static host, then replace all default URLs with the custom domain.
 
