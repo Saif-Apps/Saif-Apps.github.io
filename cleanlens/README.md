@@ -1,8 +1,8 @@
 # CleanLens Marketing Site
 
-Static, crawlable marketing and answer-engine visibility pages for CleanLens.
+Static compatibility copies of the CleanLens marketing and answer-engine visibility pages.
 
-The custom domain root is now the primary site at `https://cleanlens.net/`. This folder remains available for compatibility with earlier `/cleanlens/` URLs.
+The custom domain root is now the primary site at `https://cleanlens.net/`. This folder remains available for compatibility with earlier `/cleanlens/` URLs. The active SEO pages live at the root; these legacy copies should not compete in search.
 
 ## Purpose
 
@@ -27,7 +27,7 @@ This folder is designed to help users and AI search tools understand what CleanL
 
 The homepage CTA points to the live App Store listing:
 
-`https://apps.apple.com/ca/app/cleanlens/id6761312918?uo=4`
+`https://apps.apple.com/app/cleanlens-clean-storage/id6761312918?uo=4`
 
 ## Deployment options
 

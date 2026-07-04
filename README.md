@@ -1,6 +1,6 @@
 # CleanLens Website
 
-Static GitHub Pages site for CleanLens at `https://cleanlens.net/`.
+Static GitHub Pages site for CleanLens: Clean Storage at `https://cleanlens.net/`.
 
 ## Public Pages
 
@@ -13,4 +13,4 @@ Static GitHub Pages site for CleanLens at `https://cleanlens.net/`.
 - `/cleanlens-support/` - Legacy support URL kept for existing App Store links.
 - `/cleanlens-privacy/` - Legacy privacy URL kept for existing App Store links.
 
-The older `/cleanlens/` marketing pages remain available for compatibility, but the custom domain root is now the primary public site.
+The older `/cleanlens/` marketing pages remain available for compatibility, but the custom domain root is now the primary public site. Legacy duplicate marketing pages are marked `noindex, follow` with canonicals pointing to the root-domain pages.

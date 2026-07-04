@@ -164,6 +164,22 @@ p {
   margin-top: 30px;
 }
 
+.store-note {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 14px;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.store-note span {
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.04);
+  padding: 7px 10px;
+}
+
 .button {
   display: inline-flex;
   align-items: center;
@@ -273,9 +289,31 @@ p {
   background: #0c0d12;
 }
 
+.cta-section {
+  background: linear-gradient(135deg, rgba(232, 201, 120, 0.08), rgba(141, 228, 199, 0.08));
+}
+
 .section-inner {
   max-width: var(--max);
   margin: 0 auto;
+}
+
+.cta-panel {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 28px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(17, 19, 26, 0.76);
+  padding: 26px;
+}
+
+.cta-panel p:not(.eyebrow) {
+  max-width: 740px;
+  margin-top: 14px;
+  color: var(--muted);
+  font-size: 18px;
 }
 
 .section-head {
@@ -496,7 +534,8 @@ p {
 
   .grid.three,
   .grid.two,
-  .metric-row {
+  .metric-row,
+  .cta-panel {
     grid-template-columns: 1fr;
   }
 
