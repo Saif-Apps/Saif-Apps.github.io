@@ -20,7 +20,7 @@ Canonical site:
 https://cleanlens.net/
 
 App Store:
-https://apps.apple.com/ca/app/cleanlens/id6761312918?uo=4
+https://apps.apple.com/app/cleanlens-clean-storage/id6761312918?uo=4
 
 Useful pages:
 - https://cleanlens.net/how-to-clean-iphone-photo-library-safely/
