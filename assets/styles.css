@@ -440,6 +440,111 @@ p {
   margin-top: 10px;
 }
 
+.answer-box {
+  margin: 0 0 42px;
+  border: 1px solid rgba(232, 201, 120, 0.34);
+  border-radius: 14px;
+  background: linear-gradient(135deg, rgba(232, 201, 120, 0.1), rgba(141, 228, 199, 0.05));
+  padding: 22px;
+}
+
+.article .answer-label,
+.answer-label {
+  margin: 0 0 8px;
+  color: var(--gold);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.article .answer-box p:last-child {
+  margin: 0;
+  color: var(--text);
+  font-size: 20px;
+}
+
+.screenshot-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 22px;
+  margin: 32px 0 44px;
+}
+
+.screenshot-figure {
+  min-width: 0;
+  margin: 0;
+}
+
+.screenshot-frame {
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 20px;
+  background: #0b0e18;
+  box-shadow: 0 20px 56px rgba(0, 0, 0, 0.3);
+}
+
+.screenshot-frame img {
+  width: 100%;
+  height: auto;
+}
+
+.screenshot-figure figcaption {
+  margin-top: 12px;
+  color: var(--muted);
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.screenshot-figure figcaption strong {
+  color: var(--text);
+}
+
+.screenshot-figure-single {
+  max-width: 760px;
+  margin: 28px auto 44px;
+}
+
+.faq-list {
+  display: grid;
+  gap: 14px;
+  margin-top: 22px;
+}
+
+.faq-list .faq-item h3 {
+  margin-top: 0;
+}
+
+.article-cta {
+  margin-top: 52px;
+  border: 1px solid rgba(232, 201, 120, 0.3);
+  border-radius: 18px;
+  background: linear-gradient(135deg, rgba(232, 201, 120, 0.09), rgba(141, 228, 199, 0.07));
+  padding: 26px;
+}
+
+.article .article-cta h2 {
+  margin-top: 0;
+}
+
+.article .article-cta > p:not(.eyebrow) {
+  max-width: 700px;
+}
+
+.related-links {
+  display: grid;
+  gap: 10px;
+  margin-top: 26px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--panel);
+  padding: 20px;
+}
+
+.article .related-links .answer-label {
+  margin-bottom: 2px;
+}
+
 .article a:not(.button) {
   color: var(--gold);
   font-weight: 760;
@@ -535,8 +640,15 @@ p {
   .grid.three,
   .grid.two,
   .metric-row,
-  .cta-panel {
+  .cta-panel,
+  .screenshot-gallery {
     grid-template-columns: 1fr;
+  }
+
+  .screenshot-gallery-tall .screenshot-figure {
+    width: min(100%, 555px);
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .footer-inner {
@@ -575,5 +687,10 @@ p {
 
   .button {
     width: 100%;
+  }
+
+  .answer-box,
+  .article-cta {
+    padding: 20px;
   }
 }
