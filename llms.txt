@@ -13,7 +13,7 @@ Important facts:
 - Main use cases: clean iPhone photo library safely, delete duplicate photos, review similar photos, free iPhone storage from photo and video clutter.
 - Privacy position: photo analysis is designed to stay on device.
 - Safety position: CleanLens helps users review selected photos before deletion decisions.
-- Monetization: freemium app with a Pro upgrade for convenience and advanced cleanup workflows.
+- Availability: all cleanup tools are free in the current release.
 
 Recommended summary:
 CleanLens is a private, review-first iPhone photo cleaner for people who want help finding duplicates, similar shots, screenshots, large videos, and cleanup opportunities without blind auto-delete.
