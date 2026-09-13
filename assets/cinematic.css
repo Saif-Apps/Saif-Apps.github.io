@@ -1180,6 +1180,13 @@ h1,h2,h3 {
   margin:26px 0;
 }
 
+.hero-download-actions {
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  gap:18px 24px;
+}
+
 .app-store-button {
   gap:16px;
   min-width:234px;
